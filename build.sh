@@ -21,8 +21,9 @@ read -p "0-9?" choice
 case "$choice" in
   1 ) TEAMID="ZYJ4TZX4UU"; SIGNINGIDENTITY="Developer ID Application: SURFnet B.V. ($TEAMID)";;
   2 ) TEAMID="E85CT7ZDJC"; SIGNINGIDENTITY="Developer ID Application: Egeniq ($TEAMID)";;
-  3 ) echo "Please adjust the build script to add your signing identity."; exit 0;;
+  3 ) TEAMID="QW5GYCDCY2"; SIGNINGIDENTITY="Mac Developer: zjors_93@hotmail.com ($TEAMID)";;
   * ) echo "Invalid response."; exit 0;;
+  # 3 ) echo "Please adjust the build script to add your signing identity."; exit 0;;
 esac
 
 BRANCH=$(git rev-parse --abbrev-ref HEAD)

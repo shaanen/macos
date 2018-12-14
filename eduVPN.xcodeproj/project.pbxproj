@@ -730,12 +730,15 @@
 					};
 					C7BEF5C41F03E0D80038605E = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = ZYJ4TZX4UU;
+						DevelopmentTeam = V2U533755Y;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.HardenedRuntime = {
 								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
 							};
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -752,7 +755,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C7BEF5C01F03E0D70038605E /* Build configuration list for PBXProject "eduVPN" */;
+			buildConfigurationList = C7BEF5C01F03E0D70038605E /* Build configuration list for PBXProject "EduVPN" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1243,7 +1246,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = ZYJ4TZX4UU;
+				DEVELOPMENT_TEAM = V2U533755Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1267,7 +1270,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = ZYJ4TZX4UU;
+				DEVELOPMENT_TEAM = V2U533755Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1351,7 +1354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7BEF5C01F03E0D70038605E /* Build configuration list for PBXProject "eduVPN" */ = {
+		C7BEF5C01F03E0D70038605E /* Build configuration list for PBXProject "EduVPN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7BEF5D21F03E0D80038605E /* Debug */,
